@@ -60,10 +60,13 @@ print(union("HAM", "EGG", "SPAM"))
 
 def aaa(*ar):
     for x in ar:
-        print(type(x))
-        print(x)
+        #print(type(x))
+        #print(x)
         for y in x:
-            print(type(y))
-            print(y)
+            #print(type(y))
+           # print(y)
+            for z in y:
+                #print(type(z))
+                print(z)
 
 aaa("HAM", "EGG", "SPAM")
