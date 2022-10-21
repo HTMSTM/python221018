@@ -32,9 +32,9 @@ for n in range(0,10):
                         # span2 = span.nextSibling.nextSibling
                         # title = span2.text 
                         title = item.text.strip()
-                        print(title)
-                        # if (re.search('아이폰', title)):
-                        #         print(title.strip())
+                        # print(title)
+                        if (re.search('아이폰', title)):
+                                print(title.strip())
 
                                 # print('https://www.clien.net'  + item['href'])
                 except:
